@@ -4,14 +4,14 @@ function submit() {
     var subreddits = [];
     for (var i = 0; i < elements.length; i++) {
         if (elements[i].value) {
-            subreddits.push(trim(elements[i].value))
+            subreddits.push(elements[i].value.trim())
         }
     }
     var elements = document.getElementsByClassName("filter-input");
     var filters = [];
     for (var i = 0; i < elements.length; i++) {
         if (elements[i].value) {
-            filters.push(trim(elements[i].value))
+            filters.push(elements[i].value.trim())
         }
     }
     data["subreddits"] = subreddits;
