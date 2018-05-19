@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en" style="height: 100%">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="static/bootstrap.min.css">
+
+    <title>Bot Configurator</title>
+  </head>
+  <body style="height: 100%">
+    <div class="container d-flex h-100">
+      <ul class="list-group align-self-center w-100">
+        <li class="list-group-item" id=subreddit-list-group-item>
+          <label><h2>Subreddits</h2></label>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">r/</span>
+            </div>
+            <input type="text" class="form-control subreddit-input needs-validation"></input>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">r/</span>
+            </div>
+            <input type="text" class="form-control subreddit-input"></input>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">r/</span>
+            </div>
+            <input type="text" class="form-control subreddit-input"></input>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <label><h2>Filters</h2>Accepts Regex, case insensitive</label>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control filter-input needs-validation">
+          </div>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control filter-input">
+          </div>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control filter-input">
+          </div>
+        </li>
+        <li class="list-group-item">
+          <button type="submit" class="btn btn-primary" onclick="submit()">
+            Submit
+          </button>
+        </li>
+      </ul>
+    </di>
+  </body>
+  <script src="static/jquery-3.3.1.slim.min.js"></script>
+  <script src="static/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+</html>
